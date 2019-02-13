@@ -1,0 +1,157 @@
+body {
+  background-color: #ffff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#parentAuth {
+  position: relative;
+  overflow: hidden;
+}
+
+#parentAuth #auth {
+  background-color: rgba(235, 235, 235, 0.863);
+  border: 5px solid burlywood;
+  padding: 5vh;
+  height: 50%;
+  width: 30%;
+  margin: 5vh auto;
+}
+
+#parentAuth #auth h2 {
+  text-align: center;
+}
+
+#parentAuth #auth input {
+  line-height: 1.5em;
+  font-size: .8em;
+  width: 50%;
+}
+
+#parentAuth #auth button {
+  background-color: burlywood;
+  width: 50%;
+}
+
+#account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#right, #left, #transactions {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  padding-top: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+#transactions {
+  width: 45%;
+}
+
+#right {
+  border-left: 1px solid burlywood;
+  height: 100vh;
+}
+
+#right input {
+  line-height: 1.5em;
+  font-size: .8em;
+}
+
+#right #searchResults {
+  display: inline-block;
+  margin: 1em auto;
+  text-align: left;
+}
+
+#right button {
+  background-color: burlywood;
+  width: 30%;
+}
+
+#right #buy {
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#right #buy button {
+  width: 100%;
+}
+
+#right .hidden {
+  display: none !important;
+}
+
+#navbar {
+  background-color: lightgrey;
+  height: 8vh;
+  text-align: right;
+  padding-right: 2em;
+  vertical-align: middle;
+  line-height: 8vh;
+}
+
+#navbar Link {
+  text-decoration: none;
+}
+
+#navbar button {
+  background: none !important;
+  color: inherit;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.lineT {
+  border-bottom: solid 1px burlywood;
+  margin: 1em auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1em 1em 1em;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.line {
+  border-bottom: solid 1px burlywood;
+  margin: 1em auto;
+  display: -ms-grid;
+  display: grid;
+  padding: 0 1em 1em 1em;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+}
+
+.lineItem {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.red {
+  color: red;
+}
+
+.grey {
+  color: grey;
+}
+
+.green {
+  color: green;
+}
+/*# sourceMappingURL=main.css.map */
