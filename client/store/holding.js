@@ -18,6 +18,7 @@ export const fetchHoldings = id => async dispatch => {
 export const fetchGroupedHoldings = id => async dispatch => {
   const response = await axios.get(`api/purchases/grouped/${id}`);
   const holdings = response.data;
+  // console.log(holdings);
   dispatch(getHoldings(holdings));
 };
 

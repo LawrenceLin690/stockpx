@@ -11,16 +11,17 @@ body{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 #parentAuth{
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  // position: absolute;
+  // overflow: hidden;
+  justify-content: space-around;
 
   #auth {
     background-color: rgba(235, 235, 235, 0.863);
     border: 5px solid burlywood;
     padding: 5vh;
-    height: 50%;
-    width: 30%;
-    margin: 5vh auto;
+    margin: 10vh;
+    flex: 1;
     h2{
       text-align: center
     }
@@ -35,6 +36,16 @@ body{
       width: 50%;
     }
   }
+}
+
+#indices{
+  display: flex;
+
+  .index{
+    flex: 1;
+    font-size: .9em;
+  }
+
 }
 
 #account{

@@ -30,6 +30,7 @@ class Account extends Component {
           .map(stock => stock.ticker.toLowerCase())
           .join();
         if (searchString) {
+          // console.log('search', searchString);
           this.getMarketInfo(searchString);
         }
       }
