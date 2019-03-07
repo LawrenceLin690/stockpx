@@ -1,4 +1,4 @@
-// const tracer = require('dd-trace').init();
+const tracer = require('dd-trace').init();
 const path = require('path');
 const express = require('express');
 const morgan = require('morgan');
