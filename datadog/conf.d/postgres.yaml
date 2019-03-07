@@ -1,0 +1,19 @@
+init_config:
+
+instances:
+  - host: <YOUR HOSTNAME>
+    port: <YOUR PORT>
+    username: <YOUR USERNAME>
+    password: <YOUR PASSWORD>
+    dbname: <YOUR DBNAME>
+    ssl: True
+
+  # - host: process.env.DATABASE_URL
+  #   port: "{{process.env.PORT}}"
+  #   username: <YOUR USERNAME>
+  #   password: 2edea16d6274fe82a399a208bdf62df5
+  #   dbname: <YOUR DBNAME>
+  #   ssl: True
+
+  #   const databaseName = pkg.name;
+  #   const pkg = require('../../package.json');
